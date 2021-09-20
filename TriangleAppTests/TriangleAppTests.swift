@@ -28,6 +28,7 @@ class TriangleAppTests: XCTestCase {
 
   func testDetectRandomTriangle() {
     XCTAssertEqual(try detectTriangle(3, 4, 5), "Segitiga Sembarang")
+    
   }
 
   func testDetectPythagorasTriangle() {
